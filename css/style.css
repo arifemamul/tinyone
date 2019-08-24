@@ -1,0 +1,63 @@
+font-family: 'PT Sans', sans-serif;
+/*font end*/
+*{
+	margin: 0;
+	padding:0;
+}
+/*header start*/
+header{
+	font-family: PT Sans;
+	background-color: #fcdb00;
+	padding: 15px 0;
+}
+/*header end*/
+/*men start*/
+.menu ul li a{
+	font-weight: 700;
+    font-size: 22px;
+    color: black !important;
+    padding: 0 40px !important;
+    transition: 0.3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color:white !important;
+}
+/*men end*/
+/*carousel start*/
+.banner{
+	background-color:#fcdb00;
+	padding-bottom: 70px; 
+}
+.mine{
+	bottom: -68px;
+}
+.mine li{
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.head_line{
+	margin-top: 70px;
+}
+.head_line h1{
+	font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.head_line h2{
+	font-size: 20px;
+	word-spacing: 4px;
+    margin-bottom: 20px;
+}
+.head_line p{
+    margin-bottom: 40px;
+}
+.list-inline i{
+	font-size: 40px;
+	color: black;
+	margin-right: 30px !important;
+}
+/*carousel end*/
